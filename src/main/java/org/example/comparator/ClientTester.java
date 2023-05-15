@@ -8,13 +8,15 @@ import java.util.List;
 public class ClientTester {
     public static void main(String[] args) {
 
-        Employee.Address address = new Employee.Address("1332 lands end circle", "","OH", "43147");
-        Employee.Address address1 = new Employee.Address("1331 lands end circle", "","OH", "43147");
-        Employee.Address address2 = new Employee.Address("1333 lands end circle", "","OH", "43147");
 
-        Employee emp1 = new Employee("Wondimu Kenea", address);
-        Employee emp2 = new Employee("Michael Boran", address1);
-        Employee emp3 = new Employee("Abraham Kenea", address2);
+
+        Employee.Address address = new Employee.Address("0003 lands end circle", "","OH", "0000");
+        Employee.Address address1 = new Employee.Address("0001 lands end circle", "","OH", "0000");
+        Employee.Address address2 = new Employee.Address("0002 lands end circle", "","OH", "0000");
+
+        Employee emp1 = new Employee("Sena Kayo", address);
+        Employee emp2 = new Employee("Michael Oromo", address1);
+        Employee emp3 = new Employee("Oromo Kenea", address2);
 
         List<Employee> lst = new ArrayList<>(Arrays.asList(emp1,emp2,emp3));
 
